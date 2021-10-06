@@ -4,5 +4,10 @@
    "second name":"Dmitrievich",
    "age":21,
    "pets":"zero",
-   "salary":5000
+   "salary":5000,
+   "film ":"The Wolf of Wall Street",
+   "series":"Lucifer",
+   "food":"borsch",
+   "season":"sprinng",
+   "contry":"London"
 }
