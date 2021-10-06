@@ -6,7 +6,10 @@
 <age>21</age>
 <pets>0</pets>
 <salary>5000</salary>
+<film>The Wolf of Wall Street</film>
+<series>Lucifer</series>  
+<food>borsch</food>
+<season>spring</season>
+<country>England</country>  
 </Student>
 </info>
-
-
