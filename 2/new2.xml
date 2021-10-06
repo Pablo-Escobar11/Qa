@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+<Student name="Pavel">
+<surname>Ermalovich</surname>
+<secodName>Dmitrievich</secodName>
+<age>21</age>
+<pets>0</pets>
+<salary>5000</salary>
+</Student>
+</info>
+
+
