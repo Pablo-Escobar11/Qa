@@ -151,7 +151,7 @@ join employee_salary es on employee_id = e.id
 join salary s on salary_id = s.id 
 join roles_employee re on re.employee_id = e.id 
 join roles r on r.id = role_id
-where role_name like '%Junior  Automation QA%' or role_name like '%Junior Manual QA%';
+where role_name like '%Junior Automation QA%' or role_name like '%Junior Manual QA%';
 
 --21. Вывести среднюю зарплату всех Junior специалистов
 select avg(monthly_salary)
