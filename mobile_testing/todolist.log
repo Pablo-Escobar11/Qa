@@ -1,0 +1,41 @@
+695:11-16 16:46:23.423  1998  3555 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=com.android.todolist/.MainActivity} from uid 2000
+708:11-16 16:46:59.331  1998  2017 I ActivityManager: Killing 7914:com.android.todolist/u0a134 (adj 905): remove task
+709:11-16 16:46:59.954  1998  3143 I WindowManager: WIN DEATH: Window{683f00c u0 com.android.todolist/com.android.todolist.MainActivity}
+712:11-16 16:47:30.036  1998  3143 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10090
+719:11-16 16:47:30.372  1998  2024 I ActivityManager: Start proc 10567:com.android.todolist/u0a134 for activity {com.android.todolist/com.android.todolist.MainActivity}
+725:11-16 16:47:39.825  1998  3598 I ActivityTaskManager: START u0 {act=android.intent.action.DELETE dat=package:com.android.todolist flg=0x10800000 cmp=com.google.android.packageinstaller/com.android.packageinstaller.UninstallerActivity (has extras)} from uid 10090
+732:11-16 16:47:44.494  1998  2023 I ActivityManager: Force stopping com.android.todolist appid=10134 user=0: deletePackageX
+733:11-16 16:47:44.556  1998  2023 I ActivityManager: Killing 10567:com.android.todolist/u0a134 (adj 900): stop com.android.todolist
+740:11-16 16:47:45.538  1998  2037 I ActivityManager: Force stopping com.android.todolist appid=10134 user=0: pkg removed
+743:11-16 16:47:45.989  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+744:11-16 16:47:45.994  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+745:11-16 16:47:45.995  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor
+746:11-16 16:47:46.000  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+749:11-16 16:47:46.132  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+751:11-16 16:47:46.139  1998  2014 E PackageManager: failed to find package com.android.todolist
+752:11-16 16:47:46.139  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+753:11-16 16:47:46.143  1998  2014 E OverlayManager: Failed to change enabled overlays for com.android.todolist user 0
+765:11-16 16:47:47.532  1998  1998 I ConditionProviders: Disallowing condition provider com.android.todolist
+877:11-16 16:49:50.809  1998  2037 V BackupManagerService: restoreAtInstall pkg=com.android.todolist token=4 restoreSet=0
+881:11-16 16:49:51.027  1998  5303 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+882:11-16 16:49:51.033  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+883:11-16 16:49:51.034  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+884:11-16 16:49:51.034  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+885:11-16 16:49:51.035  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+886:11-16 16:49:51.035  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+887:11-16 16:49:51.035  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+888:11-16 16:49:51.035  1998  2023 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+1085:11-16 17:13:38.975  1998  5303 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10090
+1091:11-16 17:13:39.211  1998  2024 I ActivityManager: Start proc 12359:com.android.todolist/u0a135 for activity {com.android.todolist/com.android.todolist.MainActivity}
+1405:11-17 08:14:24.880  1998  7412 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10090
+1972:11-17 08:24:03.909 15991 16055 I Finsky  : [1024] kpv.f(20): ItemStore: Not cached: com.android.todolist
+4921:11-17 08:32:02.425  1998  3603 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10135
+4948:11-17 08:32:04.449  1998  3603 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@8fab8a2
+4952:11-17 08:32:05.846  1998  3074 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10135
+4987:11-17 08:32:09.418 12359 12392 I chatty  : uid=10135(com.android.todolist) RenderThread identical 6 lines
+5002:11-17 08:32:14.083  1998  3074 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10135
+5035:11-17 08:32:16.128  1998  2259 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@da7962d
+5043:11-17 08:32:17.199 12359 12392 I chatty  : uid=10135(com.android.todolist) RenderThread identical 7 lines
+5055:11-17 08:32:19.199 12359 12392 I chatty  : uid=10135(com.android.todolist) RenderThread identical 4 lines
+5065:11-17 08:32:20.895  1998  3074 E InputDispatcher: Window handle Window{89a5b6b u0 com.android.todolist/com.android.todolist.ListActivity} has no registered input channel
+5067:11-17 08:32:20.920  1998  2930 E InputDispatcher: Window handle Window{89a5b6b u0 com.android.todolist/com.android.todoli
